@@ -1,7 +1,7 @@
 body {
   background-color: #001008;
   color: #f0fff8;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #main {
@@ -29,10 +29,11 @@ small {
 }
 
 .button {
-  border: 1px solid #bfffdf
+  border: 1px solid #bfffdf;
+  margin-bottom: 1%;
 }
 
 .invisible {
   color: white;
-  text-decoration: none
+  text-decoration: none;
 }
