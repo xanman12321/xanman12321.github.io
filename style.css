@@ -1,18 +1,21 @@
 body {
   background-color: #001008;
   color: #f0fff8;
-  font-family: Verdana;
-}
-
-#big {
-  display: flex;
-  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.greybox {
+  align-self: center;
   text-align: center;
   width: 70%;
   background-color: #102018;
+  margin-bottom: 1%;
 }
 
 small {
@@ -22,4 +25,14 @@ small {
 #main p {
   margin-left: 25%;
   margin-right: 25%;
+  white-space: pre-wrap;
+}
+
+.button {
+  border: 1px solid #bfffdf
+}
+
+.invisible {
+  color: white;
+  text-decoration: none
 }
