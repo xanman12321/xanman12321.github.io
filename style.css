@@ -1,0 +1,25 @@
+body {
+  background-color: #001008;
+  color: #f0fff8;
+  font-family: Verdana;
+}
+
+#big {
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  text-align: center;
+  width: 70%;
+  background-color: #102018;
+}
+
+small {
+  font-size: 8pt;
+}
+
+#main p {
+  margin-left: 25%;
+  margin-right: 25%;
+}
