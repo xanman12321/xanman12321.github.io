@@ -1,5 +1,6 @@
 body {
-  background-color: #001008;
+  /*background-color: #001008;*/
+  background-image: linear-gradient(to right, #000804, #002010, #000804);
   color: #f0fff8;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -14,7 +15,15 @@ body {
   align-self: center;
   text-align: center;
   width: 70%;
-  background-color: #102018;
+  background-color: rgba(40,40,40,0.5);
+  margin-bottom: 1%;
+  outline: solid 2px rgba(40,40,40,1);
+}
+
+.clearbox {
+  align-self: center;
+  text-align: center;
+  width: 70%;
   margin-bottom: 1%;
 }
 
@@ -33,7 +42,21 @@ small {
   margin-bottom: 1%;
 }
 
+.realbutton {
+  width: 88px;
+  height: 31px;
+  line-height: 31px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #7FFF7F;
+}
+
+
 .invisible {
   color: white;
   text-decoration: none;
+}
+
+#logo {
+  width: 100px
 }
